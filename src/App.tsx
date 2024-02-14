@@ -13,21 +13,24 @@ export default function Page() {
   const getNoButtonText = () => {
     const phrases = [
       "No",
+      "Maybe so",
+      "Nop",
       "Are you sure?",
       "What if I asked really nicely?",
       "Pretty please",
+      "pwetty please :3",
       "With a chocolate rice cake on top",
       "What about a matcha frostie",
-      "PLEASE POOKIE",
-      "But :*(",
-      "I am going to die",
-      "Yep im dead",
-      "ok ur talking to nathan's ghost",
-      "please babe",
+      "PLEASE PRINCESS",
+      "But :((",
+      "I am going to not live forever.",
+      "Yep im passed away.",
+      "this is victor's ghost now",
+      "please my queen",
       ":((((",
-      "PRETTY PLEASE",
-      "Estoy muerto",
-      "No :(",
+      "PUHLEAAAASSSSSSEUUUUH",
+      "i'm gonna cry",
+      "no :c i want to break victor's heart",
     ];
 
     return phrases[Math.min(noCount, phrases.length - 1)];
@@ -37,14 +40,14 @@ export default function Page() {
     <div className="-mt-16 flex h-screen flex-col items-center justify-center">
       {yesPressed ? (
         <>
-          <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" />
-          <div className="my-4 text-4xl font-bold">WOOOOOO!!! I love you pookie!! ;))</div>
+          <img src="https://media.tenor.com/PmTBonTkAOQAAAAM/sugar-cubs.gif" />
+          <div className="my-4 text-4xl font-bold">YIPPPPPIEEEE!! I love you Princess ehehehe</div>
         </>
       ) : (
         <>
           <img
             className="h-[200px]"
-            src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif"
+            src="https://media.tenor.com/RUgV_AHz6tAAAAAi/sugarcubs-sugar.gif"
           />
           <h1 className="my-4 text-4xl">Will you be my Valentine?</h1>
           <div className="flex items-center">
